@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">All Tests</td><td class="numi">21</td><td class="numi">21</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">35.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">All Tests &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">testScenarios.TS2_navigateToHotels</td><td><a href="#m1"><b>checkforPopUps</b> (Smoke) </a></td><td class="numi">1</td><td>1622033858380</td><td class="numi">8038</td></tr>
+<tr><th colspan="4">All Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testScenarios.TS1_navigateToCabs</td><td><a href="#m2"><b>popUppresent</b> (Smoke) </a></td><td class="numi">1</td><td>1622033840055</td><td class="numi">313</td></tr><tr class="passedodd"><td><a href="#m3"><b>navigateToCabs</b> (Smoke) </a></td><td class="numi">1</td><td>1622033840373</td><td class="numi">578</td></tr>
+<tr class="passedeven"><td rowspan="7">testScenarios.TS3_bookACab</td><td><a href="#m4"><b>selectOneWayBooking</b> (Regression) </a></td><td class="numi">1</td><td>1622033840952</td><td class="numi">289</td></tr><tr class="passedeven"><td><a href="#m5"><b>enterSourceCity</b> (Regression) </a></td><td class="numi">1</td><td>1622033841242</td><td class="numi">1373</td></tr><tr class="passedeven"><td><a href="#m6"><b>enterSameCity</b> (Regression) </a></td><td class="numi">1</td><td>1622033842616</td><td class="numi">2756</td></tr><tr class="passedeven"><td><a href="#m7"><b>enterDestinationCity</b> (Regression) </a></td><td class="numi">1</td><td>1622033845373</td><td class="numi">823</td></tr><tr class="passedeven"><td><a href="#m8"><b>enterDepartureDate</b> (Regression) </a></td><td class="numi">1</td><td>1622033846197</td><td class="numi">1023</td></tr><tr class="passedeven"><td><a href="#m9"><b>selectPickupTime</b> (Regression) </a></td><td class="numi">1</td><td>1622033847221</td><td class="numi">562</td></tr><tr class="passedeven"><td><a href="#m10"><b>clickSearch</b> (Regression) </a></td><td class="numi">1</td><td>1622033847784</td><td class="numi">3802</td></tr>
+<tr class="passedodd"><td rowspan="4">testScenarios.TS4_searchResultCabs</td><td><a href="#m11"><b>selectCarType</b> (Regression) </a></td><td class="numi">1</td><td>1622033851587</td><td class="numi">1957</td></tr><tr class="passedodd"><td><a href="#m12"><b>filterPrice</b> (Regression) </a></td><td class="numi">1</td><td>1622033853545</td><td class="numi">522</td></tr><tr class="passedodd"><td><a href="#m13"><b>displayAvailableCars</b> (Regression) </a></td><td class="numi">1</td><td>1622033854068</td><td class="numi">902</td></tr><tr class="passedodd"><td><a href="#m14"><b>displayLowestPrice</b> (Regression) </a></td><td class="numi">1</td><td>1622033854971</td><td class="numi">2296</td></tr>
+<tr class="passedeven"><td rowspan="1">testScenarios.TS2_navigateToHotels</td><td><a href="#m15"><b>navigateToHotels</b> (Smoke) </a></td><td class="numi">1</td><td>1622033857268</td><td class="numi">1111</td></tr>
+<tr class="passedodd"><td rowspan="4">testScenarios.TS6_bookHotel</td><td><a href="#m16"><b>selectCity</b> (Regression) </a></td><td class="numi">1</td><td>1622033866419</td><td class="numi">1470</td></tr><tr class="passedodd"><td><a href="#m17"><b>enterCheckInDate</b> (Regression) </a></td><td class="numi">1</td><td>1622033867890</td><td class="numi">1020</td></tr><tr class="passedodd"><td><a href="#m18"><b>enterCheckOutDate</b> (Regression) </a></td><td class="numi">1</td><td>1622033868912</td><td class="numi">279</td></tr><tr class="passedodd"><td><a href="#m19"><b>enterRooms</b> (Regression) </a></td><td class="numi">1</td><td>1622033869192</td><td class="numi">688</td></tr>
+<tr class="passedeven"><td rowspan="1">testScenarios.TS2_navigateToGiftCards</td><td><a href="#m20"><b>navigateToGiftCard</b> (Smoke) </a></td><td class="numi">1</td><td>1622033869881</td><td class="numi">103</td></tr>
+<tr class="passedodd"><td rowspan="2">testScenarios.TS5_groupGifting</td><td><a href="#m21"><b>selectGroupGifting</b> (Regression) </a></td><td class="numi">1</td><td>1622033869985</td><td class="numi">5831</td></tr><tr class="passedodd"><td><a href="#m22"><b>enterCardDetails</b> (Regression) </a></td><td class="numi">1</td><td>1622033875816</td><td class="numi">6</td></tr>
+</table>
+<h1>All Tests</h1>
+<h2 id="m1">testScenarios.TS2_navigateToHotels:checkforPopUps</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-SAYANTAN&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17308, moz:profile: C:\Users\mitra\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05dae5fd-7f03-4fc1-88aa-0d447f4163de
+*** Element info: {Using=xpath, value=//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+<br/>at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+<br/>at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testScenarios.TS5_groupGifting:selectGroupGifting</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testScenarios.TS3_bookACab:selectOneWayBooking</h2>
+<div style="padding-left:3em">
+One Way Radio button is selected<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testScenarios.TS5_groupGifting:enterCardDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testScenarios.TS3_bookACab:enterDestinationCity</h2>
+<div style="padding-left:3em">
+Entering Destination City as Manali, Himachal Pradesh<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testScenarios.TS4_searchResultCabs:displayLowestPrice</h2>
+<div style="padding-left:3em">
+The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testScenarios.TS4_searchResultCabs:filterPrice</h2>
+<div style="padding-left:3em">
+Filter is set to show Price Low to High<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testScenarios.TS1_navigateToCabs:popUppresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testScenarios.TS6_bookHotel:enterCheckInDate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testScenarios.TS3_bookACab:selectPickupTime</h2>
+<div style="padding-left:3em">
+Selecting pick-up time as 10:00 AM<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testScenarios.TS4_searchResultCabs:displayAvailableCars</h2>
+<div style="padding-left:3em">
+
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testScenarios.TS3_bookACab:clickSearch</h2>
+<div style="padding-left:3em">
+Clicking on Search<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testScenarios.TS4_searchResultCabs:selectCarType</h2>
+<div style="padding-left:3em">
+SUV is selected<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testScenarios.TS2_navigateToGiftCards:navigateToGiftCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">testScenarios.TS3_bookACab:enterDepartureDate</h2>
+<div style="padding-left:3em">
+Selecting a future booking Date as 19 Aug 2021<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">testScenarios.TS6_bookHotel:enterCheckOutDate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">testScenarios.TS1_navigateToCabs:navigateToCabs</h2>
+<div style="padding-left:3em">
+Successfully Navigated to Cabs<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">testScenarios.TS3_bookACab:enterSourceCity</h2>
+<div style="padding-left:3em">
+Entered source city as Delhi<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">testScenarios.TS3_bookACab:enterSameCity</h2>
+<div style="padding-left:3em">
+Entering Destination city as Delhi<br/>
+ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">testScenarios.TS2_navigateToHotels:navigateToHotels</h2>
+<div style="padding-left:3em">
+Navigated to Hotels<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">testScenarios.TS6_bookHotel:selectCity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">testScenarios.TS6_bookHotel:enterRooms</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

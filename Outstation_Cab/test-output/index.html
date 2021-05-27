@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-mmtAutomation" class="navigator-link">
+              <span class="suite-name border-failed">mmtAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-mmtAutomation" class="navigator-link ">
+                    <span>C:\Users\mitra\eclipse-workspace\Outstation_Cab\Outstation_Cab\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-mmtAutomation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-mmtAutomation" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-mmtAutomation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-mmtAutomation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-mmtAutomation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-mmtAutomation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-mmtAutomation" class="hide-methods failed suite-mmtAutomation"> (hide)</a> <!-- hide-methods failed suite-mmtAutomation -->
+                      <a href="#" panel-name="suite-mmtAutomation" class="show-methods failed suite-mmtAutomation"> (show)</a> <!-- show-methods failed suite-mmtAutomation -->
+                    </span>
+                    <div class="method-list-content failed suite-mmtAutomation">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS2_navigateToHotels" class="method navigator-link" hash-for-method="checkforPopUps">checkforPopUps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-mmtAutomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-mmtAutomation" class="hide-methods passed suite-mmtAutomation"> (hide)</a> <!-- hide-methods passed suite-mmtAutomation -->
+                      <a href="#" panel-name="suite-mmtAutomation" class="show-methods passed suite-mmtAutomation"> (show)</a> <!-- show-methods passed suite-mmtAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-mmtAutomation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="clickSearch">clickSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS4_searchResultCabs" class="method navigator-link" hash-for-method="displayAvailableCars">displayAvailableCars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS4_searchResultCabs" class="method navigator-link" hash-for-method="displayLowestPrice">displayLowestPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS5_groupGifting" class="method navigator-link" hash-for-method="enterCardDetails">enterCardDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS6_bookHotel" class="method navigator-link" hash-for-method="enterCheckInDate">enterCheckInDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS6_bookHotel" class="method navigator-link" hash-for-method="enterCheckOutDate">enterCheckOutDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="enterDepartureDate">enterDepartureDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="enterDestinationCity">enterDestinationCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS6_bookHotel" class="method navigator-link" hash-for-method="enterRooms">enterRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="enterSameCity">enterSameCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="enterSourceCity">enterSourceCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS4_searchResultCabs" class="method navigator-link" hash-for-method="filterPrice">filterPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS1_navigateToCabs" class="method navigator-link" hash-for-method="navigateToCabs">navigateToCabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS2_navigateToGiftCards" class="method navigator-link" hash-for-method="navigateToGiftCard">navigateToGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS2_navigateToHotels" class="method navigator-link" hash-for-method="navigateToHotels">navigateToHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS1_navigateToCabs" class="method navigator-link" hash-for-method="popUppresent">popUppresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS4_searchResultCabs" class="method navigator-link" hash-for-method="selectCarType">selectCarType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS6_bookHotel" class="method navigator-link" hash-for-method="selectCity">selectCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS5_groupGifting" class="method navigator-link" hash-for-method="selectGroupGifting">selectGroupGifting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="selectOneWayBooking">selectOneWayBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mmtAutomation" title="testScenarios.TS3_bookACab" class="method navigator-link" hash-for-method="selectPickupTime">selectPickupTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-mmtAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-mmtAutomation" class="panel mmtAutomation">
+          <div class="suite-mmtAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScenarios.TS2_navigateToHotels</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkforPopUps">
+                  </a> <!-- checkforPopUps -->
+                  <span class="method-name">checkforPopUps</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-SAYANTAN&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17308, moz:profile: C:\Users\mitra\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05dae5fd-7f03-4fc1-88aa-0d447f4163de
+*** Element info: {Using=xpath, value=//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+	at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+... Removed 29 stack frames<br/> org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-SAYANTAN&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17308, moz:profile: C:\Users\mitra\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05dae5fd-7f03-4fc1-88aa-0d447f4163de
+*** Element info: {Using=xpath, value=//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+	at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br>org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br>com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)<br>testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)<br>testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.base/java.lang.reflect.Method.invoke(Method.java:567)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-failed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS1_navigateToCabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToCabs">
+                  </a> <!-- navigateToCabs -->
+                  <span class="method-name">navigateToCabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popUppresent">
+                  </a> <!-- popUppresent -->
+                  <span class="method-name">popUppresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS2_navigateToHotels</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHotels">
+                  </a> <!-- navigateToHotels -->
+                  <span class="method-name">navigateToHotels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS5_groupGifting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCardDetails">
+                  </a> <!-- enterCardDetails -->
+                  <span class="method-name">enterCardDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectGroupGifting">
+                  </a> <!-- selectGroupGifting -->
+                  <span class="method-name">selectGroupGifting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS3_bookACab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearch">
+                  </a> <!-- clickSearch -->
+                  <span class="method-name">clickSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDepartureDate">
+                  </a> <!-- enterDepartureDate -->
+                  <span class="method-name">enterDepartureDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDestinationCity">
+                  </a> <!-- enterDestinationCity -->
+                  <span class="method-name">enterDestinationCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSameCity">
+                  </a> <!-- enterSameCity -->
+                  <span class="method-name">enterSameCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSourceCity">
+                  </a> <!-- enterSourceCity -->
+                  <span class="method-name">enterSourceCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOneWayBooking">
+                  </a> <!-- selectOneWayBooking -->
+                  <span class="method-name">selectOneWayBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPickupTime">
+                  </a> <!-- selectPickupTime -->
+                  <span class="method-name">selectPickupTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS6_bookHotel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCheckInDate">
+                  </a> <!-- enterCheckInDate -->
+                  <span class="method-name">enterCheckInDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCheckOutDate">
+                  </a> <!-- enterCheckOutDate -->
+                  <span class="method-name">enterCheckOutDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterRooms">
+                  </a> <!-- enterRooms -->
+                  <span class="method-name">enterRooms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCity">
+                  </a> <!-- selectCity -->
+                  <span class="method-name">selectCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS2_navigateToGiftCards</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToGiftCard">
+                  </a> <!-- navigateToGiftCard -->
+                  <span class="method-name">navigateToGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+          <div class="suite-mmtAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.TS4_searchResultCabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayAvailableCars">
+                  </a> <!-- displayAvailableCars -->
+                  <span class="method-name">displayAvailableCars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayLowestPrice">
+                  </a> <!-- displayLowestPrice -->
+                  <span class="method-name">displayLowestPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterPrice">
+                  </a> <!-- filterPrice -->
+                  <span class="method-name">filterPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCarType">
+                  </a> <!-- selectCarType -->
+                  <span class="method-name">selectCarType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mmtAutomation-class-passed -->
+        </div> <!-- panel mmtAutomation -->
+        <div panel-name="test-xml-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mitra\eclipse-workspace\Outstation_Cab\Outstation_Cab\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;mmtAutomation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.TS1_navigateToCabs&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS3_bookACab&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS4_searchResultCabs&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS2_navigateToHotels&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS6_bookHotel&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS2_navigateToGiftCards&quot;/&gt;
+      &lt;class name=&quot;testScenarios.TS5_groupGifting&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- mmtAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for mmtAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for mmtAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayAvailableCars</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayLowestPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterCardDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterCheckInDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterCheckOutDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterDepartureDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterDestinationCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterRooms</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSameCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSourceCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">filterPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectGroupGifting</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectOneWayBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectPickupTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkforPopUps</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToCabs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToGiftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToHotels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">popUppresent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for mmtAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_mmtAutomation');
+function tableData_mmtAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkforPopUps')
+data.setCell(0, 2, 'testScenarios.TS2_navigateToHotels')
+data.setCell(0, 3, 8038);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectGroupGifting')
+data.setCell(1, 2, 'testScenarios.TS5_groupGifting')
+data.setCell(1, 3, 5831);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickSearch')
+data.setCell(2, 2, 'testScenarios.TS3_bookACab')
+data.setCell(2, 3, 3802);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'enterSameCity')
+data.setCell(3, 2, 'testScenarios.TS3_bookACab')
+data.setCell(3, 3, 2756);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'displayLowestPrice')
+data.setCell(4, 2, 'testScenarios.TS4_searchResultCabs')
+data.setCell(4, 3, 2296);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectCarType')
+data.setCell(5, 2, 'testScenarios.TS4_searchResultCabs')
+data.setCell(5, 3, 1957);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectCity')
+data.setCell(6, 2, 'testScenarios.TS6_bookHotel')
+data.setCell(6, 3, 1470);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterSourceCity')
+data.setCell(7, 2, 'testScenarios.TS3_bookACab')
+data.setCell(7, 3, 1373);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'navigateToHotels')
+data.setCell(8, 2, 'testScenarios.TS2_navigateToHotels')
+data.setCell(8, 3, 1111);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterDepartureDate')
+data.setCell(9, 2, 'testScenarios.TS3_bookACab')
+data.setCell(9, 3, 1023);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'enterCheckInDate')
+data.setCell(10, 2, 'testScenarios.TS6_bookHotel')
+data.setCell(10, 3, 1020);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'displayAvailableCars')
+data.setCell(11, 2, 'testScenarios.TS4_searchResultCabs')
+data.setCell(11, 3, 902);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'enterDestinationCity')
+data.setCell(12, 2, 'testScenarios.TS3_bookACab')
+data.setCell(12, 3, 823);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'enterRooms')
+data.setCell(13, 2, 'testScenarios.TS6_bookHotel')
+data.setCell(13, 3, 688);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'navigateToCabs')
+data.setCell(14, 2, 'testScenarios.TS1_navigateToCabs')
+data.setCell(14, 3, 578);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'selectPickupTime')
+data.setCell(15, 2, 'testScenarios.TS3_bookACab')
+data.setCell(15, 3, 562);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'filterPrice')
+data.setCell(16, 2, 'testScenarios.TS4_searchResultCabs')
+data.setCell(16, 3, 522);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'popUppresent')
+data.setCell(17, 2, 'testScenarios.TS1_navigateToCabs')
+data.setCell(17, 3, 313);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'selectOneWayBooking')
+data.setCell(18, 2, 'testScenarios.TS3_bookACab')
+data.setCell(18, 3, 289);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'enterCheckOutDate')
+data.setCell(19, 2, 'testScenarios.TS6_bookHotel')
+data.setCell(19, 3, 279);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'navigateToGiftCard')
+data.setCell(20, 2, 'testScenarios.TS2_navigateToGiftCards')
+data.setCell(20, 3, 103);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'enterCardDetails')
+data.setCell(21, 2, 'testScenarios.TS5_groupGifting')
+data.setCell(21, 3, 6);
+window.suiteTableData['mmtAutomation']= { tableData: data, tableDiv: 'times-div-mmtAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-mmtAutomation">
+              </div> <!-- times-div-mmtAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for mmtAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectOneWayBooking</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">One Way Radio button is selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterDestinationCity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering Destination City as Manali, Himachal Pradesh</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">displayLowestPrice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">filterPrice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Filter is set to show Price Low to High</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectPickupTime</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Selecting pick-up time as 10:00 AM</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">displayAvailableCars</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Search</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectCarType</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SUV is selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterDepartureDate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Selecting a future booking Date as 19 Aug 2021</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToCabs</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully Navigated to Cabs</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterSourceCity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entered source city as Delhi</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterSameCity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering Destination city as Delhi</span>
+                <span class="reporter-method-output">ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToHotels</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to Hotels</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS2_navigateToHotels</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS5_groupGifting</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS3_bookACab</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS6_bookHotel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS2_navigateToGiftCards</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenarios.TS4_searchResultCabs</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">exitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-mmtAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS1_navigateToCabs</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateCabs</span>
+                <span class="method-start">6679 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS2_navigateToGiftCards</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateGiftCard</span>
+                <span class="method-start">6706 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS2_navigateToHotels</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateHotels</span>
+                <span class="method-start">6708 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS3_bookACab</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateCabs</span>
+                <span class="method-start">6710 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS4_searchResultCabs</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateCabs</span>
+                <span class="method-start">6711 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS5_groupGifting</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateGiftCard</span>
+                <span class="method-start">6713 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS6_bookHotel</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateHotels</span>
+                <span class="method-start">6713 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS1_navigateToCabs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">popUppresent</span>
+                <span class="method-start">6721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToCabs</span>
+                <span class="method-start">7039 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS3_bookACab</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectOneWayBooking</span>
+                <span class="method-start">7618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterSourceCity</span>
+                <span class="method-start">7908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterSameCity</span>
+                <span class="method-start">9282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterDestinationCity</span>
+                <span class="method-start">12039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterDepartureDate</span>
+                <span class="method-start">12863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPickupTime</span>
+                <span class="method-start">13887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSearch</span>
+                <span class="method-start">14450 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS4_searchResultCabs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectCarType</span>
+                <span class="method-start">18253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filterPrice</span>
+                <span class="method-start">20211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayAvailableCars</span>
+                <span class="method-start">20734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayLowestPrice</span>
+                <span class="method-start">21637 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS2_navigateToHotels</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToHotels</span>
+                <span class="method-start">23934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkforPopUps</span>
+                <span class="method-start">25046 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS6_bookHotel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectCity</span>
+                <span class="method-start">33085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCheckInDate</span>
+                <span class="method-start">34556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCheckOutDate</span>
+                <span class="method-start">35578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterRooms</span>
+                <span class="method-start">35858 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS2_navigateToGiftCards</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToGiftCard</span>
+                <span class="method-start">36547 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS5_groupGifting</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectGroupGifting</span>
+                <span class="method-start">36651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCardDetails</span>
+                <span class="method-start">42482 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.TS1_navigateToCabs</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">42521 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

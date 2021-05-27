@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="22" passed="21" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Navigated to Cabs]]>
+    </line>
+    <line>
+      <![CDATA[One Way Radio button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Entered source city as Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Entering Destination city as Delhi]]>
+    </line>
+    <line>
+      <![CDATA[ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same]]>
+    </line>
+    <line>
+      <![CDATA[Entering Destination City as Manali, Himachal Pradesh]]>
+    </line>
+    <line>
+      <![CDATA[Selecting a future booking Date as 19 Aug 2021]]>
+    </line>
+    <line>
+      <![CDATA[Selecting pick-up time as 10:00 AM]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search]]>
+    </line>
+    <line>
+      <![CDATA[SUV is selected]]>
+    </line>
+    <line>
+      <![CDATA[Filter is set to show Price Low to High]]>
+    </line>
+    <line>
+      <![CDATA[
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295]]>
+    </line>
+    <line>
+      <![CDATA[The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Hotels]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-26T12:57:20Z" name="mmtAutomation" finished-at="2021-05-26T12:57:55Z" duration-ms="35814">
+    <groups>
+      <group name="Regression">
+        <method signature="TS3_bookACab.clickSearch()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="clickSearch" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterDepartureDate()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="enterDepartureDate" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterDestinationCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="enterDestinationCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterSameCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="enterSameCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.enterSourceCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="enterSourceCity" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.selectOneWayBooking()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="selectOneWayBooking" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS3_bookACab.selectPickupTime()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" name="selectPickupTime" class="testScenarios.TS3_bookACab"/>
+        <method signature="TS4_searchResultCabs.displayAvailableCars()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" name="displayAvailableCars" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.displayLowestPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" name="displayLowestPrice" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.filterPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" name="filterPrice" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS4_searchResultCabs.selectCarType()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" name="selectCarType" class="testScenarios.TS4_searchResultCabs"/>
+        <method signature="TS5_groupGifting.enterCardDetails()[pri:0, instance:testScenarios.TS5_groupGifting@51c668e3]" name="enterCardDetails" class="testScenarios.TS5_groupGifting"/>
+        <method signature="TS5_groupGifting.selectGroupGifting()[pri:0, instance:testScenarios.TS5_groupGifting@51c668e3]" name="selectGroupGifting" class="testScenarios.TS5_groupGifting"/>
+        <method signature="TS6_bookHotel.enterCheckInDate()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" name="enterCheckInDate" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.enterCheckOutDate()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" name="enterCheckOutDate" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.enterRooms()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" name="enterRooms" class="testScenarios.TS6_bookHotel"/>
+        <method signature="TS6_bookHotel.selectCity()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" name="selectCity" class="testScenarios.TS6_bookHotel"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TS1_navigateToCabs.navigateToCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" name="navigateToCabs" class="testScenarios.TS1_navigateToCabs"/>
+        <method signature="TS1_navigateToCabs.popUppresent()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" name="popUppresent" class="testScenarios.TS1_navigateToCabs"/>
+        <method signature="TS2_navigateToGiftCards.navigateToGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@52719fb6]" name="navigateToGiftCard" class="testScenarios.TS2_navigateToGiftCards"/>
+        <method signature="TS2_navigateToHotels.checkforPopUps()[pri:0, instance:testScenarios.TS2_navigateToHotels@6fdbe764]" name="checkforPopUps" class="testScenarios.TS2_navigateToHotels"/>
+        <method signature="TS2_navigateToHotels.navigateToHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6fdbe764]" name="navigateToHotels" class="testScenarios.TS2_navigateToHotels"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-05-26T12:57:20Z" name="All Tests" finished-at="2021-05-26T12:57:55Z" duration-ms="35814">
+      <class name="testScenarios.TS1_navigateToCabs">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" started-at="2021-05-26T18:27:13Z" name="startTest" finished-at="2021-05-26T18:27:20Z" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="initiateCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" started-at="2021-05-26T18:27:20Z" name="initiateCabs" finished-at="2021-05-26T18:27:20Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method is-config="true" signature="initiateGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@52719fb6]" started-at="2021-05-26T18:27:20Z" name="initiateGiftCard" finished-at="2021-05-26T18:27:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateGiftCard -->
+        <test-method is-config="true" signature="initiateHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6fdbe764]" started-at="2021-05-26T18:27:20Z" name="initiateHotels" finished-at="2021-05-26T18:27:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateHotels -->
+        <test-method is-config="true" signature="initiateCabs()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:20Z" name="initiateCabs" finished-at="2021-05-26T18:27:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method is-config="true" signature="initiateCabs()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" started-at="2021-05-26T18:27:20Z" name="initiateCabs" finished-at="2021-05-26T18:27:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateCabs -->
+        <test-method is-config="true" signature="initiateHotels()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" started-at="2021-05-26T18:27:20Z" name="initiateHotels" finished-at="2021-05-26T18:27:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateHotels -->
+        <test-method is-config="true" signature="initiateGiftCard()[pri:0, instance:testScenarios.TS5_groupGifting@51c668e3]" started-at="2021-05-26T18:27:20Z" name="initiateGiftCard" finished-at="2021-05-26T18:27:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateGiftCard -->
+        <test-method signature="popUppresent()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" started-at="2021-05-26T18:27:20Z" name="popUppresent" finished-at="2021-05-26T18:27:20Z" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUppresent -->
+        <test-method signature="navigateToCabs()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" started-at="2021-05-26T18:27:20Z" name="navigateToCabs" finished-at="2021-05-26T18:27:20Z" duration-ms="578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Navigated to Cabs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToCabs -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS1_navigateToCabs@783a467b]" started-at="2021-05-26T18:27:55Z" name="exitBrowser" finished-at="2021-05-26T18:27:59Z" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS1_navigateToCabs -->
+      <class name="testScenarios.TS3_bookACab">
+        <test-method signature="selectOneWayBooking()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:20Z" name="selectOneWayBooking" finished-at="2021-05-26T18:27:21Z" duration-ms="289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[One Way Radio button is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectOneWayBooking -->
+        <test-method signature="enterSourceCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:21Z" name="enterSourceCity" finished-at="2021-05-26T18:27:22Z" duration-ms="1373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered source city as Delhi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterSourceCity -->
+        <test-method signature="enterSameCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:22Z" name="enterSameCity" finished-at="2021-05-26T18:27:25Z" duration-ms="2756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Destination city as Delhi]]>
+            </line>
+            <line>
+              <![CDATA[ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterSameCity -->
+        <test-method signature="enterDestinationCity()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:25Z" name="enterDestinationCity" finished-at="2021-05-26T18:27:26Z" duration-ms="823" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Destination City as Manali, Himachal Pradesh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDestinationCity -->
+        <test-method signature="enterDepartureDate()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:26Z" name="enterDepartureDate" finished-at="2021-05-26T18:27:27Z" duration-ms="1023" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selecting a future booking Date as 19 Aug 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDepartureDate -->
+        <test-method signature="selectPickupTime()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:27Z" name="selectPickupTime" finished-at="2021-05-26T18:27:27Z" duration-ms="562" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selecting pick-up time as 10:00 AM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectPickupTime -->
+        <test-method signature="clickSearch()[pri:0, instance:testScenarios.TS3_bookACab@2e6a8155]" started-at="2021-05-26T18:27:27Z" name="clickSearch" finished-at="2021-05-26T18:27:31Z" duration-ms="3802" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Search]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+      </class> <!-- testScenarios.TS3_bookACab -->
+      <class name="testScenarios.TS2_navigateToGiftCards">
+        <test-method signature="navigateToGiftCard()[pri:0, instance:testScenarios.TS2_navigateToGiftCards@52719fb6]" started-at="2021-05-26T18:27:49Z" name="navigateToGiftCard" finished-at="2021-05-26T18:27:49Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGiftCard -->
+      </class> <!-- testScenarios.TS2_navigateToGiftCards -->
+      <class name="testScenarios.TS4_searchResultCabs">
+        <test-method signature="selectCarType()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" started-at="2021-05-26T18:27:31Z" name="selectCarType" finished-at="2021-05-26T18:27:33Z" duration-ms="1957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SUV is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCarType -->
+        <test-method signature="filterPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" started-at="2021-05-26T18:27:33Z" name="filterPrice" finished-at="2021-05-26T18:27:34Z" duration-ms="522" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Filter is set to show Price Low to High]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterPrice -->
+        <test-method signature="displayAvailableCars()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" started-at="2021-05-26T18:27:34Z" name="displayAvailableCars" finished-at="2021-05-26T18:27:34Z" duration-ms="902" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayAvailableCars -->
+        <test-method signature="displayLowestPrice()[pri:0, instance:testScenarios.TS4_searchResultCabs@3012646b]" started-at="2021-05-26T18:27:34Z" name="displayLowestPrice" finished-at="2021-05-26T18:27:37Z" duration-ms="2296" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayLowestPrice -->
+      </class> <!-- testScenarios.TS4_searchResultCabs -->
+      <class name="testScenarios.TS2_navigateToHotels">
+        <test-method signature="navigateToHotels()[pri:0, instance:testScenarios.TS2_navigateToHotels@6fdbe764]" started-at="2021-05-26T18:27:37Z" name="navigateToHotels" finished-at="2021-05-26T18:27:38Z" duration-ms="1111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Hotels]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToHotels -->
+        <test-method signature="checkforPopUps()[pri:0, instance:testScenarios.TS2_navigateToHotels@6fdbe764]" started-at="2021-05-26T18:27:38Z" name="checkforPopUps" finished-at="2021-05-26T18:27:46Z" duration-ms="8038" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id='SW']/div[1]/div[1]/ul/li[5]/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-SAYANTAN', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17308, moz:profile: C:\Users\mitra\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05dae5fd-7f03-4fc1-88aa-0d447f4163de
+*** Element info: {Using=xpath, value=//*[@id='SW']/div[1]/div[1]/ul/li[5]/div[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='SW']/div[1]/div[1]/ul/li[5]/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-SAYANTAN', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17308, moz:profile: C:\Users\mitra\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05dae5fd-7f03-4fc1-88aa-0d447f4163de
+*** Element info: {Using=xpath, value=//*[@id='SW']/div[1]/div[1]/ul/li[5]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+	at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforPopUps -->
+      </class> <!-- testScenarios.TS2_navigateToHotels -->
+      <class name="testScenarios.TS6_bookHotel">
+        <test-method signature="selectCity()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" started-at="2021-05-26T18:27:46Z" name="selectCity" finished-at="2021-05-26T18:27:47Z" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="enterCheckInDate()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" started-at="2021-05-26T18:27:47Z" name="enterCheckInDate" finished-at="2021-05-26T18:27:48Z" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCheckInDate -->
+        <test-method signature="enterCheckOutDate()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" started-at="2021-05-26T18:27:48Z" name="enterCheckOutDate" finished-at="2021-05-26T18:27:49Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCheckOutDate -->
+        <test-method signature="enterRooms()[pri:0, instance:testScenarios.TS6_bookHotel@6221a451]" started-at="2021-05-26T18:27:49Z" name="enterRooms" finished-at="2021-05-26T18:27:49Z" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRooms -->
+      </class> <!-- testScenarios.TS6_bookHotel -->
+      <class name="testScenarios.TS5_groupGifting">
+        <test-method signature="selectGroupGifting()[pri:0, instance:testScenarios.TS5_groupGifting@51c668e3]" started-at="2021-05-26T18:27:49Z" name="selectGroupGifting" finished-at="2021-05-26T18:27:55Z" duration-ms="5831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGroupGifting -->
+        <test-method signature="enterCardDetails()[pri:0, instance:testScenarios.TS5_groupGifting@51c668e3]" started-at="2021-05-26T18:27:55Z" name="enterCardDetails" finished-at="2021-05-26T18:27:55Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCardDetails -->
+      </class> <!-- testScenarios.TS5_groupGifting -->
+    </test> <!-- All Tests -->
+  </suite> <!-- mmtAutomation -->
+</testng-results>

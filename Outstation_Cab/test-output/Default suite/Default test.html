@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 26 17:42:27 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26348 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.TS2_navigateToHotels.checkforPopUps()'><b>checkforPopUps</b><br>Test class: testScenarios.TS2_navigateToHotels</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS2_navigateToHotels@740cae06</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.clickSearch()'><b>clickSearch</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-466577384" onClick='toggleBox("Output-466577384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-466577384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-466577384">
+Clicking on Search<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS4_searchResultCabs.displayAvailableCars()'><b>displayAvailableCars</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
+<a href="#Output-1445222369" onClick='toggleBox("Output-1445222369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445222369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445222369">
+
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
+Car Name: Innova CrystaType: SUV Price: Rs. 15,295<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<tr>
+<td title='testScenarios.TS4_searchResultCabs.displayLowestPrice()'><b>displayLowestPrice</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
+<a href="#Output-2132736278" onClick='toggleBox("Output-2132736278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2132736278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2132736278">
+The Lowest Price: 
+Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<tr>
+<td title='testScenarios.TS5_groupGifting.enterCardDetails()'><b>enterCardDetails</b><br>Test class: testScenarios.TS5_groupGifting</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS5_groupGifting@26d9b808</td></tr>
+<tr>
+<td title='testScenarios.TS6_bookHotel.enterCheckInDate()'><b>enterCheckInDate</b><br>Test class: testScenarios.TS6_bookHotel</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<tr>
+<td title='testScenarios.TS6_bookHotel.enterCheckOutDate()'><b>enterCheckOutDate</b><br>Test class: testScenarios.TS6_bookHotel</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.enterDepartureDate()'><b>enterDepartureDate</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-1272753974" onClick='toggleBox("Output-1272753974", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272753974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272753974">
+Selecting a future booking Date as 19 Aug 2021<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.enterDestinationCity()'><b>enterDestinationCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-1101451553" onClick='toggleBox("Output-1101451553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1101451553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1101451553">
+Entering Destination City as Manali, Himachal Pradesh<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS6_bookHotel.enterRooms()'><b>enterRooms</b><br>Test class: testScenarios.TS6_bookHotel</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.enterSameCity()'><b>enterSameCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-896134613" onClick='toggleBox("Output-896134613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896134613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896134613">
+Entering Destination city as Delhi<br/>
+ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.enterSourceCity()'><b>enterSourceCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-10915321" onClick='toggleBox("Output-10915321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10915321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10915321">
+Entered source city as Delhi<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS4_searchResultCabs.filterPrice()'><b>filterPrice</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
+<a href="#Output-1904676263" onClick='toggleBox("Output-1904676263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1904676263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1904676263">
+Filter is set to show Price Low to High<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<tr>
+<td title='testScenarios.TS1_navigateToCabs.navigateToCabs()'><b>navigateToCabs</b><br>Test class: testScenarios.TS1_navigateToCabs<br/>
+<a href="#Output-981487964" onClick='toggleBox("Output-981487964", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-981487964" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-981487964">
+Successfully Navigated to Cabs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS1_navigateToCabs@f78a47e</td></tr>
+<tr>
+<td title='testScenarios.TS2_navigateToGiftCards.navigateToGiftCard()'><b>navigateToGiftCard</b><br>Test class: testScenarios.TS2_navigateToGiftCards</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.TS2_navigateToGiftCards@46cdf8bd</td></tr>
+<tr>
+<td title='testScenarios.TS2_navigateToHotels.navigateToHotels()'><b>navigateToHotels</b><br>Test class: testScenarios.TS2_navigateToHotels<br/>
+<a href="#Output-232200992" onClick='toggleBox("Output-232200992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232200992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232200992">
+Navigated to Hotels<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.TS2_navigateToHotels@740cae06</td></tr>
+<tr>
+<td title='testScenarios.TS1_navigateToCabs.popUppresent()'><b>popUppresent</b><br>Test class: testScenarios.TS1_navigateToCabs</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS1_navigateToCabs@f78a47e</td></tr>
+<tr>
+<td title='testScenarios.TS4_searchResultCabs.selectCarType()'><b>selectCarType</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
+<a href="#Output-442465916" onClick='toggleBox("Output-442465916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-442465916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-442465916">
+SUV is selected<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<tr>
+<td title='testScenarios.TS6_bookHotel.selectCity()'><b>selectCity</b><br>Test class: testScenarios.TS6_bookHotel</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<tr>
+<td title='testScenarios.TS5_groupGifting.selectGroupGifting()'><b>selectGroupGifting</b><br>Test class: testScenarios.TS5_groupGifting</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.TS5_groupGifting@26d9b808</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.selectOneWayBooking()'><b>selectOneWayBooking</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-664839586" onClick='toggleBox("Output-664839586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-664839586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-664839586">
+One Way Radio button is selected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<tr>
+<td title='testScenarios.TS3_bookACab.selectPickupTime()'><b>selectPickupTime</b><br>Test class: testScenarios.TS3_bookACab<br/>
+<a href="#Output-2053349061" onClick='toggleBox("Output-2053349061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2053349061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053349061">
+Selecting pick-up time as 10:00 AM<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+</table><p>
+</body>
+</html>
