@@ -50,7 +50,7 @@ public class DriverSetup {
 		
 		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		driver.get(url);
-		//driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		return driver;
 		

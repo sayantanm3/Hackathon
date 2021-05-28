@@ -40,7 +40,6 @@ public class TS2_navigateToHotels extends Main{
 	@Test(priority=14, groups="Smoke")
 	public void checkforPopUps() 
 	{
-		driver.manage().deleteAllCookies();
 		cab.dealWithPopups();
 	}
 }
