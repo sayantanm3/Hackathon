@@ -86,7 +86,7 @@ public static ExtentTest logger;
 		//Verifying the error message
 		WebElement Error = driver.findElement(By.xpath("//div[@id='errorMessage']"));
 		Highlight.highLighterMethod(driver, Error);
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		ScreenshotManager.screenshot(driver, "CityError");
 		
 		if(Error.getText().contains("The Origin City & Destination City cannot be the same"))
@@ -171,7 +171,7 @@ public static ExtentTest logger;
 	{
 		Highlight.highLighterMethod(driver, cab.search());
 		ScreenshotManager.screenshot(driver, "SearchforCabs");
-		Thread.sleep(2000);	//Sleep used to capture screenshot
+		//Thread.sleep(2000);	//Sleep used to capture screenshot
 		cab.search().click();
 		Reporter.log("Clicking on Search");
 		logger.log(Status.INFO, "Search Menu is clickable");

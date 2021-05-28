@@ -68,9 +68,9 @@ public class cabPageSearchResult extends DriverSetup{
 		String carName3 = name3.getText();
 		//System.out.println("Car Name: "+carName3+"Type: SUV "+"Price: Rs. "+carPrice3[1]);
 		
-		return ("\n"+("Car Name: "+carName1+"Type: SUV "+"Price: Rs. "+carPrice1[1])+"\n"+
-				"Car Name: "+carName2+"Type: SUV "+"Price: Rs. "+carPrice2[1]+"\n"+
-				"Car Name: "+carName3+"Type: SUV "+"Price: Rs. "+carPrice3[1]);
+		return ("\n"+("|Car Name: "+carName1+"Type: SUV "+"Price: Rs. "+carPrice1[1])+"\n     "+
+				"|Car Name: "+carName2+"  Type: SUV "+"  Price: Rs. "+carPrice2[1]+"\n      "+
+				"|Car Name: "+carName3+"  Type: SUV "+"  Price: Rs. "+carPrice3[1]);
 	}
 	
 	public String lowestPrice()

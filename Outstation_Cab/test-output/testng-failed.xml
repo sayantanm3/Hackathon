@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [mmtAutomation]">
-  <test parallel="none" name="All Tests(failed)">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="testScenarios.TS2_navigateToHotels">
-        <methods>
-          <include name="checkforPopUps"/>
-          <include name="initiateHotels"/>
-        </methods>
-      </class> <!-- testScenarios.TS2_navigateToHotels -->
       <class name="testScenarios.TS1_navigateToCabs">
         <methods>
           <include name="startTest"/>
@@ -21,16 +15,6 @@
           <include name="initiateGiftCard"/>
         </methods>
       </class> <!-- testScenarios.TS5_groupGifting -->
-      <class name="testScenarios.TS3_bookACab">
-        <methods>
-          <include name="initiateCabs"/>
-        </methods>
-      </class> <!-- testScenarios.TS3_bookACab -->
-      <class name="testScenarios.TS2_navigateToGiftCards">
-        <methods>
-          <include name="initiateGiftCard"/>
-        </methods>
-      </class> <!-- testScenarios.TS2_navigateToGiftCards -->
       <class name="testScenarios.TS6_bookHotel">
         <methods>
           <include name="initiateHotels"/>
@@ -41,6 +25,22 @@
           <include name="initiateCabs"/>
         </methods>
       </class> <!-- testScenarios.TS4_searchResultCabs -->
+      <class name="testScenarios.TS3_bookACab">
+        <methods>
+          <include name="initiateCabs"/>
+        </methods>
+      </class> <!-- testScenarios.TS3_bookACab -->
+      <class name="testScenarios.TS2_navigateToGiftCards">
+        <methods>
+          <include name="initiateGiftCard"/>
+        </methods>
+      </class> <!-- testScenarios.TS2_navigateToGiftCards -->
+      <class name="testScenarios.TS2_navigateToHotels">
+        <methods>
+          <include name="checkforPopUps"/>
+          <include name="initiateHotels"/>
+        </methods>
+      </class> <!-- testScenarios.TS2_navigateToHotels -->
     </classes>
-  </test> <!-- All Tests(failed) -->
-</suite> <!-- Failed suite [mmtAutomation] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -60,6 +60,7 @@ ExcelData ex = new ExcelData();
 		Reporter.log(res.carInfo());
 		logger.log(Status.INFO, res.carInfo());
 		
+		ex.WriteData(0, 0,"Cabs: ");
 		ex.WriteData(1, 1,res.carInfo());
 		
 	}
@@ -70,10 +71,11 @@ ExcelData ex = new ExcelData();
 	{
 		System.out.println(res.lowestPrice());
 		Reporter.log(res.lowestPrice());
-		ex.WriteData(5,3,res.lowestPrice());
+		ex.WriteData(2,0, "Result: ");
+		ex.WriteData(3,1,res.lowestPrice());
 		logger.log(Status.PASS, res.lowestPrice());
 		ScreenshotManager.screenshot(driver, "cabSearchResults");
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 	

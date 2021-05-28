@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 26 17:42:27 IST 2021</td>
+<td>Started on:</td><td>Thu May 27 17:44:25 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>26 seconds (26348 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23663 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,126 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.TS2_navigateToHotels.checkforPopUps()'><b>checkforPopUps</b><br>Test class: testScenarios.TS2_navigateToHotels</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-SAYANTAN&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\mitra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe257a4bc3ed3aaa8244cde9be96b4b
+*** Element info: {Using=xpath, value=//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+	at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1178090104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1178090104'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-SAYANTAN&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\mitra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe257a4bc3ed3aaa8244cde9be96b4b
+*** Element info: {Using=xpath, value=//*[@id=&apos;SW&apos;]/div[1]/div[1]/ul/li[5]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at testObjectRepository.cabPage.dealWithPopups(cabPage.java:134)
+	at testScenarios.TS2_navigateToHotels.checkforPopUps(TS2_navigateToHotels.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>8</td>
+<td>testScenarios.TS2_navigateToHotels@5677323c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,211 +195,206 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScenarios.TS2_navigateToHotels.checkforPopUps()'><b>checkforPopUps</b><br>Test class: testScenarios.TS2_navigateToHotels</td>
-<td></td>
-<td>0</td>
-<td>testScenarios.TS2_navigateToHotels@740cae06</td></tr>
-<tr>
 <td title='testScenarios.TS3_bookACab.clickSearch()'><b>clickSearch</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-466577384" onClick='toggleBox("Output-466577384", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1175154004" onClick='toggleBox("Output-1175154004", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-466577384" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-466577384">
+<a href="#Output-1175154004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1175154004">
 Clicking on Search<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>1</td>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS4_searchResultCabs.displayAvailableCars()'><b>displayAvailableCars</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
-<a href="#Output-1445222369" onClick='toggleBox("Output-1445222369", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1527906606" onClick='toggleBox("Output-1527906606", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1445222369" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1445222369">
+<a href="#Output-1527906606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1527906606">
 
-Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
-Car Name: Maruti Suzuki ErtigaType: SUV Price: Rs. 12,647
-Car Name: Innova CrystaType: SUV Price: Rs. 15,295<br/>
+|Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599
+     |Car Name: Maruti Suzuki Ertiga  Type: SUV   Price: Rs. 12,647
+      |Car Name: Innova Crysta  Type: SUV   Price: Rs. 15,295<br/>
 </div>
 </td>
 <td></td>
-<td>0</td>
-<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<td>1</td>
+<td>testScenarios.TS4_searchResultCabs@4a883b15</td></tr>
 <tr>
 <td title='testScenarios.TS4_searchResultCabs.displayLowestPrice()'><b>displayLowestPrice</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
-<a href="#Output-2132736278" onClick='toggleBox("Output-2132736278", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-172711139" onClick='toggleBox("Output-172711139", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2132736278" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2132736278">
+<a href="#Output-172711139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172711139">
 The Lowest Price: 
 Car Name: Xylo, ErtigaType: SUV Price: Rs. 9,599<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<td>0</td>
+<td>testScenarios.TS4_searchResultCabs@4a883b15</td></tr>
 <tr>
 <td title='testScenarios.TS5_groupGifting.enterCardDetails()'><b>enterCardDetails</b><br>Test class: testScenarios.TS5_groupGifting</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS5_groupGifting@26d9b808</td></tr>
+<td>testScenarios.TS5_groupGifting@3012646b</td></tr>
 <tr>
 <td title='testScenarios.TS6_bookHotel.enterCheckInDate()'><b>enterCheckInDate</b><br>Test class: testScenarios.TS6_bookHotel</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<td>testScenarios.TS6_bookHotel@25641d39</td></tr>
 <tr>
 <td title='testScenarios.TS6_bookHotel.enterCheckOutDate()'><b>enterCheckOutDate</b><br>Test class: testScenarios.TS6_bookHotel</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<td>testScenarios.TS6_bookHotel@25641d39</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.enterDepartureDate()'><b>enterDepartureDate</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-1272753974" onClick='toggleBox("Output-1272753974", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-642538759" onClick='toggleBox("Output-642538759", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1272753974" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1272753974">
+<a href="#Output-642538759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-642538759">
 Selecting a future booking Date as 19 Aug 2021<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.enterDestinationCity()'><b>enterDestinationCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-1101451553" onClick='toggleBox("Output-1101451553", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1848163207" onClick='toggleBox("Output-1848163207", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1101451553" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1101451553">
+<a href="#Output-1848163207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1848163207">
 Entering Destination City as Manali, Himachal Pradesh<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS6_bookHotel.enterRooms()'><b>enterRooms</b><br>Test class: testScenarios.TS6_bookHotel</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<td>testScenarios.TS6_bookHotel@25641d39</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.enterSameCity()'><b>enterSameCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-896134613" onClick='toggleBox("Output-896134613", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2050320909" onClick='toggleBox("Output-2050320909", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-896134613" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-896134613">
+<a href="#Output-2050320909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2050320909">
 Entering Destination city as Delhi<br/>
 ERROR MESSAGE OCCUR: The Origin City & Destination City cannot be the same<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>0</td>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.enterSourceCity()'><b>enterSourceCity</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-10915321" onClick='toggleBox("Output-10915321", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-795590320" onClick='toggleBox("Output-795590320", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-10915321" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-10915321">
+<a href="#Output-795590320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-795590320">
 Entered source city as Delhi<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS4_searchResultCabs.filterPrice()'><b>filterPrice</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
-<a href="#Output-1904676263" onClick='toggleBox("Output-1904676263", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-117885704" onClick='toggleBox("Output-117885704", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1904676263" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1904676263">
+<a href="#Output-117885704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117885704">
 Filter is set to show Price Low to High<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<td>testScenarios.TS4_searchResultCabs@4a883b15</td></tr>
 <tr>
 <td title='testScenarios.TS1_navigateToCabs.navigateToCabs()'><b>navigateToCabs</b><br>Test class: testScenarios.TS1_navigateToCabs<br/>
-<a href="#Output-981487964" onClick='toggleBox("Output-981487964", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-478182173" onClick='toggleBox("Output-478182173", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-981487964" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-981487964">
+<a href="#Output-478182173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-478182173">
 Successfully Navigated to Cabs<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS1_navigateToCabs@f78a47e</td></tr>
+<td>testScenarios.TS1_navigateToCabs@242b836</td></tr>
 <tr>
 <td title='testScenarios.TS2_navigateToGiftCards.navigateToGiftCard()'><b>navigateToGiftCard</b><br>Test class: testScenarios.TS2_navigateToGiftCards</td>
 <td></td>
-<td>2</td>
-<td>testScenarios.TS2_navigateToGiftCards@46cdf8bd</td></tr>
+<td>3</td>
+<td>testScenarios.TS2_navigateToGiftCards@537f60bf</td></tr>
 <tr>
 <td title='testScenarios.TS2_navigateToHotels.navigateToHotels()'><b>navigateToHotels</b><br>Test class: testScenarios.TS2_navigateToHotels<br/>
-<a href="#Output-232200992" onClick='toggleBox("Output-232200992", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1395533739" onClick='toggleBox("Output-1395533739", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-232200992" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-232200992">
+<a href="#Output-1395533739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1395533739">
 Navigated to Hotels<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>testScenarios.TS2_navigateToHotels@740cae06</td></tr>
+<td>0</td>
+<td>testScenarios.TS2_navigateToHotels@5677323c</td></tr>
 <tr>
 <td title='testScenarios.TS1_navigateToCabs.popUppresent()'><b>popUppresent</b><br>Test class: testScenarios.TS1_navigateToCabs</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS1_navigateToCabs@f78a47e</td></tr>
+<td>testScenarios.TS1_navigateToCabs@242b836</td></tr>
 <tr>
 <td title='testScenarios.TS4_searchResultCabs.selectCarType()'><b>selectCarType</b><br>Test class: testScenarios.TS4_searchResultCabs<br/>
-<a href="#Output-442465916" onClick='toggleBox("Output-442465916", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2113273959" onClick='toggleBox("Output-2113273959", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-442465916" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-442465916">
+<a href="#Output-2113273959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113273959">
 SUV is selected<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>testScenarios.TS4_searchResultCabs@7526515b</td></tr>
+<td>0</td>
+<td>testScenarios.TS4_searchResultCabs@4a883b15</td></tr>
 <tr>
 <td title='testScenarios.TS6_bookHotel.selectCity()'><b>selectCity</b><br>Test class: testScenarios.TS6_bookHotel</td>
 <td></td>
 <td>1</td>
-<td>testScenarios.TS6_bookHotel@1c7696c6</td></tr>
+<td>testScenarios.TS6_bookHotel@25641d39</td></tr>
 <tr>
 <td title='testScenarios.TS5_groupGifting.selectGroupGifting()'><b>selectGroupGifting</b><br>Test class: testScenarios.TS5_groupGifting</td>
 <td></td>
-<td>5</td>
-<td>testScenarios.TS5_groupGifting@26d9b808</td></tr>
+<td>1</td>
+<td>testScenarios.TS5_groupGifting@3012646b</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.selectOneWayBooking()'><b>selectOneWayBooking</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-664839586" onClick='toggleBox("Output-664839586", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-851480926" onClick='toggleBox("Output-851480926", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-664839586" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-664839586">
+<a href="#Output-851480926" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-851480926">
 One Way Radio button is selected<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 <tr>
 <td title='testScenarios.TS3_bookACab.selectPickupTime()'><b>selectPickupTime</b><br>Test class: testScenarios.TS3_bookACab<br/>
-<a href="#Output-2053349061" onClick='toggleBox("Output-2053349061", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2771454" onClick='toggleBox("Output-2771454", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2053349061" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2053349061">
+<a href="#Output-2771454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2771454">
 Selecting pick-up time as 10:00 AM<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testScenarios.TS3_bookACab@644baf4a</td></tr>
+<td>testScenarios.TS3_bookACab@5824a83d</td></tr>
 </table><p>
 </body>
 </html>

@@ -31,9 +31,9 @@ public static ExtentTest logger;
 		logger= report.createTest("Group Gifting in Gift Card");
 		try {
 			Highlight.highLighterMethod(driver, gift.groupGifting());
-			Thread.sleep(2000); //Sleep used to capture screenshot
+			//Thread.sleep(2000); //Sleep used to capture screenshot
 			ScreenshotManager.screenshot(driver, "GroupGifting");
-			Thread.sleep(2000); //Sleep used to capture screenshot
+			//Thread.sleep(2000); //Sleep used to capture screenshot
 			
 			//Clicking Group gifting
 		gift.groupGifting().click();

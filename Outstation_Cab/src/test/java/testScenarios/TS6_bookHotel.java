@@ -11,12 +11,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+
+import libraries.ExcelData;
 import libraries.Highlight;
 import libraries.ScreenshotManager;
 import testObjectRepository.hotelPage;
 
 public class TS6_bookHotel extends Main{
 	
+ExcelData ex = new ExcelData();	
 public hotelPage hotel;
 public static ExtentTest logger;
 	
@@ -35,8 +38,9 @@ public static ExtentTest logger;
 		//Entering city as Manali
 		hotel.enterCity().sendKeys("Manali, Himachal Pradesh");
 		WebDriverWait wait= new WebDriverWait(driver,10);
-		wait.until(ExpectedConditions.visibilityOf(hotel.selectFromList()));
 		Highlight.highLighterMethod(driver, hotel.selectFromList());
+		wait.until(ExpectedConditions.visibilityOf(hotel.selectFromList()));
+		
 		//Selecting Manali from suggested list
 		hotel.selectFromList.click();
 		logger= report.createTest("Book Hotel and get Adult List");
@@ -95,13 +99,14 @@ public static ExtentTest logger;
 		 for(WebElement selectAdults: allOptions)
 		    {
 			 	//Displaying the list
-		    	String count = selectAdults.getText();
-		        System.out.println(count);
+			 	String count = selectAdults.getText();
+		        System.out.println(count);  
 		    }
 		 
 		 //Clicking on Apply 
 		 hotel.apply().click();
-		
+		 ex.WriteData(4, 0, "Selected Room:");
+		 ex.WriteData(5, 1, hotel.Guests().getText());
 		 //Validating the no of Adults selected in a room
 		 Assert.assertEquals(hotel.Guests().getText(), "1 Rooms 2 Guests");
 		 
